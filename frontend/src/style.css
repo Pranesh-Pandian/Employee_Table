@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:ital,wght@1,500&display=swap');
+body{
+    background-image: linear-gradient(to right,rgb(128, 249, 243),rgb(112, 112, 253));
+    opacity: 50;
+}
+table,th,td{
+    border: 3px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+td{
+    width: 100px;
+    font-weight: 500;
+}
+tr{
+    height: 40px;
+    background-color: rgb(171, 153, 153);
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 0 0 ;
+}
+
+.deleteemp{
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(251, 111, 98);
+    font-weight: bold;
+}
+.deleteemp:hover{
+    box-shadow: 0px 0px 10px rgb(251,111, 98);
+}
+
+.updateemp{
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(45, 189, 255);
+    font-weight: bold;
+}
+.updateemp:hover{
+    box-shadow: 0px 0px 10px rgb(45, 189, 255);
+}
+
+.addemp{
+    margin-top: 20px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    background-color: rgb(97, 245, 122);
+    border-radius: 8px;
+    font-weight: 900;
+    color: black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    height: 50px;
+    width: 500px;   
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: large;
+    color: black;
+    font-family: 'Poppins';
+    padding: 0 0 0 15px;
+}
+::placeholder{
+    color: rgb(116, 113, 113);
+}
+
+.doo{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: rgb(97, 245, 122);
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.doo:hover{
+    box-shadow: 0px 0px 10px rgb(97, 245, 122);
+    color: white;
+}
+
+.dooo{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(205, 96, 255);
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.dooo:hover{
+    box-shadow: 0px 0px 15px rgb(205, 96, 255);
+    color: white;
+}
+
+.head{
+    margin: 40px 0 0 0;
+    font-family: 'Nova Square';
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+}
